@@ -9,8 +9,6 @@ cooldown_seconds = 300
 allowed_platforms = ["qq"]
 
 [smart_chat]
-# 智能私聊的触发概率 (0.0 - 1.0)
-trigger_probability = 0.3
 # 是否只对已知用户发起私聊
 only_known_users = true
 # 最小好感度阈值（已废弃）
@@ -33,3 +31,4 @@ random_greetings = [
 require_admin = false
 # 允许使用命令的用户ID列表（为空则允许所有人）
 allowed_users = []
+
