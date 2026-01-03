@@ -1,0 +1,21 @@
+{
+  "manifest_version": 1,
+  "name": "主动私聊插件",
+  "version": "1.0.0",
+  "description": "让麦麦能够主动发起私聊，可以通过命令触发或由麦麦智能决策触发",
+  "author": {
+    "name": "WaterInk",
+    "url": "https://github.com/WaterInk0101"
+  },
+  "license": "MIT License",
+  "host_application": {
+    "min_version": "1.11.6"
+  },
+  "homepage_url": "https://github.com/WaterInk0101/proactive_private_chat",
+  "repository_url": "https://github.com/WaterInk0101/proactive_private_chat",
+  "keywords": ["私聊", "主动消息", "社交"],
+  "default_locale": "zh-CN",
+  "locales_path": "_locales",
+  "categories": [
+    "Entertainment & Interaction"
+}

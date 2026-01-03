@@ -1,0 +1,35 @@
+# 主动私聊插件配置文件
+
+[general]
+# 是否启用主动私聊功能
+enabled = true
+# 私聊消息发送的冷却时间（秒），防止过于频繁
+cooldown_seconds = 300
+# 允许主动私聊的平台列表
+allowed_platforms = ["qq"]
+
+[smart_chat]
+# 智能私聊的触发概率 (0.0 - 1.0)
+trigger_probability = 0.3
+# 是否只对已知用户发起私聊
+only_known_users = true
+# 最小好感度阈值（已废弃）
+min_impression_threshold = 50
+
+[messages]
+# 默认问候消息模板
+default_greeting = "嗨 {nickname}，最近怎么样？"
+# 随机问候消息列表
+random_greetings = [
+    "嗨 {nickname}，好久不见！",
+    "{nickname}，在忙什么？",
+    "想你了 {nickname}，来聊聊天~",
+    "{nickname}，今天过得怎么样？",
+    "嘿 {nickname}，有空吗喵？想和你说说话~"
+]
+
+[command]
+# 命令触发的私聊功能是否需要管理员权限
+require_admin = false
+# 允许使用命令的用户ID列表（为空则允许所有人）
+allowed_users = []
