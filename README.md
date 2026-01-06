@@ -39,7 +39,7 @@ random_greetings = [
     "{nickname}，在忙什么？",
     "想你了 {nickname}，来聊聊天~",
     "{nickname}，今天过得怎么样？",
-    "嘿 {nickname}，有空吗喵？想和你说说话~"       #随机问候消息模版列表
+    "嘿 {nickname}，有空吗？想和你说说话~"       #随机问候消息模版列表
 ]
 
 [command]
