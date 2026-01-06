@@ -23,7 +23,7 @@ random_greetings = [
     "{nickname}，在忙什么？",
     "想你了 {nickname}，来聊聊天~",
     "{nickname}，今天过得怎么样？",
-    "嘿 {nickname}，有空吗喵？想和你说说话~"
+    "嘿 {nickname}，有空吗？想和你说说话~"
 ]
 
 [command]
@@ -31,4 +31,5 @@ random_greetings = [
 require_admin = false
 # 允许使用命令的用户ID列表（为空则允许所有人）
 allowed_users = []
+
 
