@@ -9,7 +9,7 @@
   },
   "license": "MIT License",
   "host_application": {
-    "min_version": "1.11.6"
+    "min_version": "0.11.6"
   },
   "homepage_url": "https://github.com/WaterInk0101/proactive_private_chat",
   "repository_url": "https://github.com/WaterInk0101/proactive_private_chat",
@@ -20,5 +20,6 @@
     "Entertainment & Interaction"
   ]
  }
+
 
 
